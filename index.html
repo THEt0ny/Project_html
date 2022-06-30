@@ -7,72 +7,66 @@
         <title>Paul Walker's tribute</title> 
         <meta name="author" content="Anthony Charette">
         <link rel="icon" href="Img/4141639_logo_toyota_icon.png" type="image/x-icon">
+
+        <!--External font from google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     </head>
 
-    <body>
+    <body id="main">
+
+        <h1 id="main-title">Tribute to Paul Walker</h1>  
 
         <!--Head part of the body-->
         <header>
             <!--The head title of the web page, centered and italisize-->
-            <center>
-                 <h1><i>Tribute to Paul Walker</i></h1>
-            </center>
 
-            <hr>
-                <!--centered navigation for the user of the page-->
-                <center>
-                    <nav aria-label="primary-navigation" id="navigation">
+             
 
-                                <a style="color:black" href="#Biography">Biography</a> |
+             <h2 class="subtitle"> His brief biography</h2>
 
-                                <a style="color:black" href="#Career"> His career</a> |
+             <img src="Img/paul-walker.jpg" alt="Brian O'connor" title="Paul in The fast and The furious" loading="lazy" id="img-1">
 
-                                <a style="color:black" href="#Hobbies"> Paul's hobbies</a> |
+             <!--A little biography of Paul Walker-->
+            <p class="paragraph-1">
+                Paul William Walker IV commonly known as just Paul Walker, is a male actor born on September 12, 1973 known for his iconic role as Brian O'conner in the
+                Fast and Furious franchise. He is the father of <a href="https://en.wikipedia.org/wiki/Meadow_Walker">Meadow Walker</a> his daughter and brother to Cody and Caleb Walker. His father Paul William Walker III and his mother who is 
+                Cheryl Walker. Paul died on November 30, 2013 in a car crash.  
 
-                                <a style="color:black" href="#ending">Tragic ending</a>
-
-                    </nav>
-                </center>
-            <hr>
-
+                 
+            </p>
+            
+            
         </header>
 
         <main>
-            <figure>
-                <img src="Img/paul-walker.jpg" alt="Brian O'connor" title="Paul in The fast and The furious" loading="lazy" width="600" height="400">
-             </figure>
-
-             <hr>
 
              <article>
-                 <section>
-                    <h2 id="Biography"><u>Biography</u></h2>
-
-                    <!--A little biography of Paul Walker-->
-                    <p>
-                        Paul William Walker IV commonly known as just Paul Walker, is a male actor born on September 12, 1973 known for his iconic role as Brian O'conner in the
-                        Fast and Furious franchise. He is the father of <a href="https://en.wikipedia.org/wiki/Meadow_Walker">Meadow Walker</a> his daughter and brother to Cody and Caleb Walker. His father Paul William Walker III and his mother who is 
-                        Cheryl Walker. Paul died on November 30, 2013 in a car crash. 
-                    </p>
-                </section>
-
-                <hr>
-
-                <section>
-                    <h2 id="Career"><u>His career</u></h2>
+                <br>
+                <section class="career">
+                    
+                    <h2 class="subtitle">His career</h2>
 
                     <!--Little description of his career from the start-->
-                    <p>
+                    <p class="paragraph-2">
                         He started at a very young age. His very first tv appearence was in a pampers commercial when he was only 2 years old.
                         He kept doing tv commercial before starting his acting career in 1984 in a teen anthology series <u>CBS Schoolbreak Special</u>.
                         Paul kept working in television until 1996, across all genres. His film career started in 1986 in low budgets B films. His first was in 
-                        a horror comedy <a href="https://en.wikipedia.org/wiki/Monster_in_the_Closet">Monster in the Closet</a>. Here's a list of a few roles after the first one:
+                        a horror comedy <a href="https://en.wikipedia.org/wiki/Monster_in_the_Closet">Monster in the Closet</a>.
+                        After his movie 'The Skulls' (2000s). He then got his breakthrough role starring the popular action movie, <a href="https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)">The Fast and the Furious</a> along side <a hef="https://en.wikipedia.org/wiki/Vin_Diesel">Vin diesel.</a>
+                        He was nominated for the MTV Movie awrad for best on-screen team with Vin diesel in 2002 <abbr title="The fast and the Furious">for the movie</abbr>. In 2002, he starred in a critically successful film
+                        called <a href="https://en.wikipedia.org/wiki/Joy_Ride_(2001_film)">Joy Ride.</a>  He then went on to starred in low budget films or commercially unsuccessful films like <a href="https://www.imdb.com/title/tt0300556/">Timeline(2003)</a> and <a href="https://en.wikipedia.org/wiki/Into_the_Blue_(2005_film)">Into the Blue(2005)</a>. Walker went on to 
+                        starred in the second movie of the fast and furious franchise <a href="https://en.wikipedia.org/wiki/2_Fast_2_Furious">2 fast 2 furious</a> and the 4,5 and 6 movie of the franchise. He was able to film only a part of the 7 movie
+                        before his passing. The film makers were able to use his brothers and special effects to recreate a perfect image of him to then release the film in 2017 after 
+                        pushing to the release date back.
                     </p>
-
-                    <!--Unordered list to list movies of Paul Walker-->
-                    <ul>
+                </section>
+                    <!-- Unordered list to list movies of Paul Walker
+                    <ul id="movie-list">
                         <li>
                             <a href="https://www.imdb.com/title/tt0093790/">The Retaliator (subtitled Programmed to kill)</a> 
                         </li>
@@ -94,62 +88,43 @@
                         <li>
                             <a href="https://en.wikipedia.org/wiki/The_Skulls_(film)">The Skulls (2000)</a>
                         </li>
-                    </ul>
+                    </ul> -->
+                
 
-                    <p>
-                        After the last one , The Skulls. He then got his breakthrough role starring the popular action movie, <a href="https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)">The Fast and the Furious</a> along side <a hef="https://en.wikipedia.org/wiki/Vin_Diesel">Vin diesel.</a>
-                        He was nominated for the MTV Movie awrad for best on-screen team with Vin diesel in 2002 <abbr title="The fast and the Furious">for the movie</abbr>. In 2002, he starred in a critically successful film
-                        called <a href="https://en.wikipedia.org/wiki/Joy_Ride_(2001_film)">Joy Ride.</a>  He then went on to starred in low budget films or commercially unsuccessful films like <a href="https://www.imdb.com/title/tt0300556/">Timeline(2003)</a> and <a href="https://en.wikipedia.org/wiki/Into_the_Blue_(2005_film)">Into the Blue(2005)</a>. Walker went on to 
-                        starred in the second movie of the fast and furious franchise <a href="https://en.wikipedia.org/wiki/2_Fast_2_Furious">2 fast 2 furious</a> and the 4,5 and 6 movie of the franchise. He was able to film only a part of the 7 movie
-                        before his passing. The film makers were able to use his brothers and special effects to recreate a perfect image of him to then release the film in 2017 after 
-                        pushing to the release date back.
-                    </p>
-                    <aside>
+                    <section>
                         <details>
-                            <summary>Do you know of how many films is the Fast andf Furious franchise have ?</summary>
-                            <dd><u>The franchise has 9 movies and 1 spin-off movie. 2 new movies are coming soon too to make a total of 11 movies and 1 spin-off.</u></dd>
-                            <dd><img src="Img/ffmovieposters2-1617729081.jpg" alt="Poster" title="Posters of all the FF movies" loading="lazy" width="300" heigth="400"></dd>
+                            <summary id="pop-up">Do you know of how many films is compose the Fast and Furious franchise ?</summary>
+                            <dd>The franchise has 9 movies and 1 spin-off movie. 2 new movies are coming soon too to make a total of 11 movies and 1 spin-off.</dd>
+                            <dd><img  id="poster-image" src="Img/ffmovieposters2-1617729081.jpg" alt="Poster" title="Posters of all the FF movies" loading="lazy" width="300" heigth="400"></dd>
                         </details>
+                    </section>
 
-                    </aside>
+                <section class="hobbies">
+                    <h2 class="subtitle">His hobbies</h2>
 
-                </section>
-
-                <hr>
-
-                <section>
-                    <h2 id="Hobbies"><u>His hobbies</u></h2>
-
-                    <p>
+                    <p class="paragraph-4">
                         Paul really didn't have much hobbies but the two that he had was cars and marine life (everything ocean related). Just to remind you Paul studied in marine biology before the start of his
                         acting career and in his free time he would fund marine life foundations millions and even created one to his name. Paul spent his time to help raise money for charities too.
                         His other hobbie for cars isn't a surprise. He holds a massive car collection shared with his dear friend Roger Rodas. The complet list of his collection 
                         can be found <a href="car.html">here</a>.
-
-                        <figure>
-                            <img src="Img/EnamelPin_2048x2048.webp" alt="Foundation logo" title="Paul's foundation" loading="lazy" width="600" height="400">
-                            <figcaption>Here's the logo of his foundation <a href="https://paulwalkerfoundation.org/">The Paul Walker foundation</a>.</figcaption>
-                        </figure>
                     </p>
+                            <img id="Foundation-logo" src="Img/EnamelPin_2048x2048.webp" alt="Foundation logo" title="Paul's foundation" loading="lazy" width="600" height="400">
+                   
                 </section>
 
-                <hr>
+                <section class="ending">
+                    <h2 class="subtitle">The unexpected</h2>
 
-                <section>
-                    <h2 id="ending"><u>The unexpected</u></h2>
-
-                    <p>
+                    <p class="paragraph-5">
                         As we all know by now Paul life didn't end on a good note. His life ended after his friend Roger Rodas who was behind the wheel of Paul's red Porsche Carrera GT 2005.
                         Lost control of the car and hit a parking tree at about 100 miles an hour. Paul and Rodas perished in the burning car on November 30, 2012. 
                     </p>
 
-                    <img src="Img/2005-Porsche-Carrera-GT.jpg" alt="Porsche" title="Paul's Carrera GT" loading="lazy" width="800" height="500">
+                    <img id="porsche" src="Img/2005-Porsche-Carrera-GT.jpg" alt="Porsche" title="Paul's Carrera GT" loading="lazy" >
 
                     <br>
-                     <!--Option de revenir au haut de la page rapidement-->
-                    <a href="#" style="color:blueviolet">Back to the top</a>
+
                     
-                    <hr>
                 </section>
              </article>
 
@@ -162,31 +137,44 @@
             
 
             <br>
-            <form action="https://httpbin.org/get">
-                <fieldset>
-                    <legend><strong>Send any more information or your thoughts on this tribute</strong></legend>
 
-                    <p>
-                        <label for="full name">Enter your full name:</label> <input type="text" name="full name" placeholder="Your full name" required>
-                        
-                     </p>
-                     <p>
-                         <textarea name="info" id="message" cols="30" rows="10" placeholder="Type your message or any new information" required></textarea>
-                     </p>
-                     <button type="submit" formaction="https://httpbin.org/get" formmethod="get">Submit info</button>
-                     <button type="reset">Clear</button>
 
-                </fieldset>
-            </form>
 
-            <hr>
             <center>
-                &lt;&lt;&lt; Copyright &copy;Tony &gt;&gt;&gt;
-                <br>
-                Creator and writer of this page: Anthony 'Tony' Charette
-                <br>
-                <a href="mailto: random@gmail.com">My email</a>
+                <!--Option de revenir au haut de la page rapidement-->
+                <a href="#" class="special-link">Back to the top</a>
+                
             </center>
+
+            <br>
+
+            <section class="center">
+
+                     <details>
+                        <summary id="contact-me">Feedback or contact me!</summary>
+                        <dd id="pop-up-form">
+                            <form action="https://httpbin.org/get">
+                                <label for="full name">Enter your full name:</label> 
+                                <input type="text" id="full-name" name="full name" placeholder="Your full name" required>
+        
+                                <label for="message">Your message to me:</label>
+                                <textarea name="info" id="message" cols="30" rows="10" style="resize: none;"placeholder="Type your message or any new information" required></textarea>
+
+                                <button type="submit" formaction="https://httpbin.org/get" formmethod="get">Submit info</button>
+                                <button type="reset">Clear</button>
+
+                                <div id="email">
+                                    <a href="mailto: random@gmail.com" class="special-link">My email</a>
+                                </div>
+
+                            </form>
+                        </dd>
+                     </details>   
+
+
+                
+
+            </section>
 
         </footer>
         
